@@ -12,5 +12,5 @@ GREETINGS = (
     "Вот это подарок, видеть тебя *"
 )
 
-GREETINGS_TO_NEW_FEMALE_MEMBERS = ()
-GREETINGS_TO_NEW_MALE_MEMBERS = ()
+GREETINGS_TO_FEMALE = ()
+GREETINGS_TO_MALE = ()
