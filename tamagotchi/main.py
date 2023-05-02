@@ -1,11 +1,17 @@
 
 from aiogram import executor
 
-from _bot import dispatcher
+from api import dispatcher
 import handlers
+
+
+async def on_startup(_):
+    print("The bot is running")
 
 
 if __name__ == "__main__":
     executor.start_polling(
-        dispatcher=dispatcher, skip_updates=True
+        dispatcher=dispatcher,
+        on_startup=on_startup,
+        skip_updates=True
     )

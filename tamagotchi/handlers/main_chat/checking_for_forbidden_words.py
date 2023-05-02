@@ -1,7 +1,7 @@
 
 from aiogram.types import Message
 
-from _bot import bot, dispatcher
+from api import bot, dispatcher
 from data import config, langpack, forbidden_words
 
 

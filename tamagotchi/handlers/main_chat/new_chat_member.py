@@ -3,7 +3,7 @@ import random
 
 from aiogram.types import ContentType, Message
 
-from _bot import bot, dispatcher
+from api import bot, dispatcher
 from data import config, langpack
 
 
